@@ -12,4 +12,10 @@ export class ExperimentsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  name : string = "João";
+
+  changeName(event){
+    this.name = event.target.value;
+  }
 }
