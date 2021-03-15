@@ -11,5 +11,29 @@ export class CalculadoraComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  resultado : number;
+  valor1 = 0;
+  valor2 = 0;
+  sinal : string = "+";
 
+
+  soma(){
+    switch(this.sinal){
+      case "+":
+        this.resultado=+this.valor1+ +this.valor2;
+        break;
+      case "-":
+        this.resultado=+this.valor1- +this.valor2;
+        break;
+      case "*":
+        this.resultado=+this.valor1* +this.valor2;
+        break;
+      case "/":
+        this.resultado=+this.valor1/ +this.valor2;
+        break;
+      default:
+        this.resultado=+this.valor1+ +this.valor2;
+        break;
+    }
+  }
 }
