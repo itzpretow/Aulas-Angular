@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ExperimentsComponent } from './experiments/experiments.component';
 import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
+import { ExperimentTwoComponent } from './experiment-two/experiment-two.component';
+import { ExerciseTwoComponent } from './exercise-two/exercise-two.component';
 import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
 
@@ -22,6 +24,8 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
     HomeComponent,
     ExperimentsComponent,
     EvAndRefComponent,
+    ExperimentTwoComponent,
+    ExerciseTwoComponent,
     FichaAnimalComponent,
     EscolheAnimalComponent
   ],

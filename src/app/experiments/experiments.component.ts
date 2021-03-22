@@ -20,4 +20,5 @@ export class ExperimentsComponent implements OnInit {
   }
 
   arrayDeComida : Array<string> = ["Francesinha", "Picanha", "Churrasco", "Hamburger"];
+
 }

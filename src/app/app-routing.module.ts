@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'read-me-generator', component: ReadMeGeneratorComponent},
   {path:'ev-and-ref-component', component: EvAndRefComponent},
   {path:'ficha-animal', component: FichaAnimalComponent},
-  {path:'escolhe-animal', component: EscolheAnimalComponent},
+  {path:'escolhe-animal', component:EscolheAnimalComponent},
 ];
 
 @NgModule({

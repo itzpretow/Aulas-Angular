@@ -1,0 +1,6 @@
+<select name="cars" id="cars">
+    <option *ngFor="let animal of arrayAnimais" value="{{animal}}">{{animal}}</option>
+</select>
+
+<app-escolhe-animal [varAPassar]='"animal"'></app-escolhe-animal>
+
