@@ -20,4 +20,8 @@ export class ExperimentsComponent implements OnInit {
   }
 
   arrayDeComida : Array<string> = ["Francesinha", "Picanha", "Churrasco", "Hamburger"];
+
+  analisarReferencia(referencia){
+    console.log(referencia);
+  }
 }

@@ -11,7 +11,7 @@ export class FichaAnimalComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  animal : string;
   arrayAnimais : Array<string> = ["Cão", "Gato", "Panda", "Texugo"];
 
 }

@@ -1,6 +1,8 @@
-<input type="text" (input)="changeName($event)" value={{name}}>
+<input type="text" (input)="changeName($event)" value={{name}} #referenciaCriada>
 <p>Olá {{name}}</p>
 <!-- DIRETIVA NGFOR -->
 <div *ngFor="let comida of arrayDeComida">
   <h4>{{comida}}</h4>
 </div>
+
+<button (click)='analisarReferencia(referenciaCriada.value)'>Referencia</button>

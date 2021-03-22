@@ -1,6 +1,6 @@
-<select name="cars" id="cars">
+<select [(ngModel)]='animal' #referenciaParaEsteSelect>
     <option *ngFor="let animal of arrayAnimais" value="{{animal}}">{{animal}}</option>
 </select>
 
-<app-escolhe-animal [varAPassar]='"animal"'></app-escolhe-animal>
+<app-escolhe-animal [animalRecebido]=referenciaParaEsteSelect.value></app-escolhe-animal>
 

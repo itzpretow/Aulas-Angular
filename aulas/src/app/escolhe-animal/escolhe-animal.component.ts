@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class EscolheAnimalComponent implements OnInit {
 
-  @Input()  varAPassar =""
+  @Input()  animalRecebido
 
   constructor() { }
 
