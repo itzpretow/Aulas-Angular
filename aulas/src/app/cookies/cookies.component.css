@@ -1,0 +1,18 @@
+.cookiesForm{
+  position: fixed;
+  width: 100vw;
+  height: 13vh;
+  background-color: rgb(240, 240, 240);
+  display:flex;
+  align-items:center;
+  align-content: space-around;
+  justify-content:space-around;
+  animation:subirCookies;
+  animation-duration: 3s;
+  bottom: 0;
+}
+
+@keyframes subirCookies {
+  from {bottom:-25vh;}
+  to {bottom:0;}
+}
