@@ -11,11 +11,23 @@ export class EvAndRefComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  tamanhoLetra : number = 15
   cor:string="white";
 
   changeColor(corR:string){
     this.cor = corR;
   }
 
+  trocarFundo(referBtn){
+    referBtn.backgroundColor = "black";
+  }
+
+  trocarCorLetra(referBtn){
+    referBtn.color = "white";
+  }
+
+  trocarTamanhoLetra(referBtn){
+    this.tamanhoLetra++;
+    referBtn.fontSize=""+this.tamanhoLetra+"px";
+  }
 }

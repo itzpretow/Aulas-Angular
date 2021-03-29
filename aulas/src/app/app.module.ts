@@ -23,7 +23,7 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
     ExperimentsComponent,
     EvAndRefComponent,
     FichaAnimalComponent,
-    EscolheAnimalComponent
+    EscolheAnimalComponent,
   ],
   imports: [
     BrowserModule,

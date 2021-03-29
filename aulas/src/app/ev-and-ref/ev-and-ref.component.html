@@ -1,1 +1,5 @@
-<input type="text" [style.background]="cor" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")' (input)='changeColor("green")' (blur)='changeColor("grey")' (copy)='changeColor("yellow")'>
+<input #referBtn type="text" [style.background]="cor" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")' (input)='changeColor("green")' (blur)='changeColor("grey")' (copy)='changeColor("yellow")'>
+<br>
+<button (click)="trocarTamanhoLetra(referBtn.style)">Aumentar letra</button>
+<button (click)="trocarCorLetra(referBtn.style)">Trocar cor da letra</button>
+<button (click)="trocarFundo(referBtn.style)">Trocar Fundo</button>
