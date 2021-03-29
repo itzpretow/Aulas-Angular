@@ -1,9 +1,14 @@
 <input type="text" (input)="changeName($event)" value={{name}} #referenciaCriada>
 <p>Olá {{name}}</p>
+
+
 <!-- DIRETIVA NGFOR -->
-<div *ngFor="let comida of arrayDeComida">
-  <h4>{{comida}}</h4>
+<div *ngFor="let comida of arrayDeComida; let i = index;">
+  <h4 [ngStyle]="{'color': i%2==0 ? 'green' : 'red'}">{{comida}}</h4>
 </div>
+
+<button class="btn" [ngClass]="{'btn-warning' : name == 'João' ? true : false}">sou lindo</button>
+
 
 <h1 *ngIf="name=='João'">ÉS TUUUUUUUUU</h1>
 
