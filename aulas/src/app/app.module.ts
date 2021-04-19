@@ -13,6 +13,7 @@ import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { AnimalReaderComponent } from './ficha-animal/animal-reader/animal-reader.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CookiesComponent } from './cookies/cookies.component';
     FichaAnimalComponent,
     EscolheAnimalComponent,
     CookiesComponent,
+    AnimalReaderComponent,
   ],
   imports: [
     BrowserModule,

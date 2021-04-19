@@ -4,3 +4,7 @@
 
 <app-escolhe-animal [animalRecebido]=referenciaParaEsteSelect.value></app-escolhe-animal>
 
+<div *ngFor="let animalAtual of animais">
+  <app-animal-reader [animalASerLido] = 'animalAtual' >
+  </app-animal-reader>
+</div>

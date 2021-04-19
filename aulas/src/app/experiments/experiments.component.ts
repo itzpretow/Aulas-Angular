@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Preferencia } from '../classes/preferencia';
 
 @Component({
   selector: 'app-experiments',
@@ -24,4 +25,7 @@ export class ExperimentsComponent implements OnInit {
   analisarReferencia(referencia){
     console.log(referencia);
   }
+
+  defenicao : Preferencia = new Preferencia("pink", "red");
+
 }
